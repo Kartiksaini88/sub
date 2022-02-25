@@ -1,0 +1,41 @@
+#brands_div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: center;
+    margin: auto;
+    font: 18px/18px PTSans-Bold;
+    color: #666;
+    margin-top: 40px;
+}
+#brands_exp_h2{
+    font: 28px/18px PTSans-Bold;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0 0;
+    letter-spacing: 2px;
+}
+
+#brands_exp_p{
+    font: 20px/15px PTSans-Regular;
+    color: #666;
+    text-align: center;
+    padding: 0 0 18px;
+    letter-spacing: 1px;
+
+}
+#js_p{
+    font: 25px/5px PTSans-Regular;
+    color: #666;
+    text-align: center;
+    padding: 0 0 18px;
+    letter-spacing: 1px;
+    font: bold;
+}
+
+@media only screen and (min-width:556px) and (max-width:1000px){
+    #brands_div{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
